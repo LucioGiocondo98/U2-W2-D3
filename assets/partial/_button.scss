@@ -1,0 +1,6 @@
+$color-buttons: $color-blue, $color-orange, $color-green;
+@each $color-button in $color-buttons {
+  .button-#{$color-button} {
+    color: $color-button;
+  }
+}
